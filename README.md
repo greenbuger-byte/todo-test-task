@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Тестовое задание Приложение TODO list
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+ [Ссылка на heroku](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
