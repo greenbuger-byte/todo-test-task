@@ -1,11 +1,13 @@
-# Тестовое задание Приложение TODO list
+# Тестовое задание Приложение TODO list CLIENT
 
 ## КЛИЕНТ
 [Ссылка на клиент (heroku)](https://whispering-plains-24139.herokuapp.com/).
+
+[Ссылка github](https://github.com/greenbuger-byte/todo-test-task).
 #### React.js
 - Задачи доступны только авторизованным пользователям
 - Редактировать задачи можно свои или команды
-- Вывод задач: 
+- Вывод задач:
   - сетка mansory
   - канбан с drag and drop по статусам (самый простой)
 - Создать и редактировать команду на странице 'команда'
@@ -20,8 +22,9 @@
 - Статус меняется прямо из списка
 
 ## СЕРВЕР
- [Ссылка на сервер (heroku)](https://obscure-basin-28466.herokuapp.com).
+[Ссылка на сервер (heroku)](https://obscure-basin-28466.herokuapp.com).
 
+[Ссылка github](https://github.com/greenbuger-byte/todo-test-task-server).
 #### NODE.js (express), MongoDB
 ### Задачи
 - `api/v1/tasks` [get] список всех задач
@@ -34,11 +37,11 @@
 ### Пользователи
 - `api/v1/user` [get] - список пользователей
 - `api/v1/user/me` [get] [accessToken] - данные авторизованного пользователя
-- `api/v1/user/team/:id` [get] [accessToken] - добавление и удаление команды 
+- `api/v1/user/team/:id` [get] [accessToken] - добавление и удаление команды
 - `api/v1/user/login` [post] - авторизация
 - `api/v1/user/registration` [post] -вход
 
-Данные команды подгружаются с пользователем 
+Данные команды подгружаются с пользователем
 `user: {...
 lead: [{profile}, {profile}],
 ...
