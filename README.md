@@ -3,6 +3,8 @@
 ## КЛИЕНТ
 [Ссылка на клиент (heroku)](https://whispering-plains-24139.herokuapp.com/).
 
+Запуск проекта `npm dev`;
+
 [Ссылка github](https://github.com/greenbuger-byte/todo-test-task).
 #### React.js
 - Задачи доступны только авторизованным пользователям
